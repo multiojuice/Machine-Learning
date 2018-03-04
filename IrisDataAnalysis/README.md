@@ -14,5 +14,8 @@ This is written in Python3 with the help of a few of pythons libraries, these be
  4. Pandas
  5. Sklearn
 
-All of these can be and were downloaded using pip3.
+All of these can be and were downloaded using pip3, just replace the word module.
+'''bash
+pip3 install module --user
+'''
 
