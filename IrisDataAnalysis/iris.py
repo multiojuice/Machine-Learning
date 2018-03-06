@@ -96,6 +96,14 @@ ax.set_xticklabels(names)
 plt.show()
 
 
+# Choose the knn algorithm and check its scores in the predictions
+knn = KNeighborsClassifier()
+knn.fit(X_train,Y_train)
+predictions = knn.predict(X_validation)
+print(accuracy_score(Y_validation,predictions))
+print(confusion_matrix(Y_validation,predictions))
+print(classification_report(Y_validation,predictions))
+
 
 
 
